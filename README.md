@@ -36,7 +36,7 @@ All data are downloaded automatically by the notebook. Nothing has to be downloa
 ### Option B: on your own computer
 
 ```bash
-git clone https://github.com/nklsvk/AIF360.git
+git clone https://github.com/nklsvk/INFOMDW_AS4.git
 cd AIF360/reweighing_reproduction
 python -m venv venv
 source venv/bin/activate          # on Windows: venv\Scripts\activate
@@ -51,9 +51,9 @@ with `jupyter notebook` and choose **Run > Run All Cells**.
 
 The notebook prints all tables and writes them to `results/`:
 
-- `results/before.csv`: measures on the original labels (report Table 2)
-- `results/results_summary.csv`: mean and standard deviation per dataset and method (report Table 3)
-- `results/results_per_seed.csv`: every single run
+- `before.csv`: measures on the original labels (report Table 2)
+- `results_summary.csv`: mean and standard deviation per dataset and method (report Table 3)
+- `results_per_seed.csv`: every single run
 
 ## Parameters
 
